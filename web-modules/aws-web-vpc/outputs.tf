@@ -23,7 +23,7 @@ output "web_sec_group_id" {
   value = aws_security_group.web_server_sg_name.id
 }
 
-output "vpc" {
+output "vpc_arn" {
   description = "arn of VPC"
   value = aws_vpc.web_server_vpc.arn
 }
