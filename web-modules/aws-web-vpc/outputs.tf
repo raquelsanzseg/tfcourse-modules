@@ -25,5 +25,5 @@ output "web_sec_group_id" {
 
 output "vpc" {
   description = "arn of VPC"
-  value = aws_security_group.web_server_vpc.arn
+  value = aws_vpc.web_server_vpc.arn
 }
