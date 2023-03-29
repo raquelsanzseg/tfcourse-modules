@@ -27,3 +27,8 @@ output "module_version" {
   description = "Module ver from local"
   value = local.module_ver
 }
+
+output "vpc_arn" {
+  description = "ARN of the VPC"
+  value       = aws_vpc.web_server_vpc.arn
+}
